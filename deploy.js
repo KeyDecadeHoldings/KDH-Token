@@ -5,7 +5,7 @@ const ethabi = require('ethereumjs-abi');
 const commandLineArgs = require('command-line-args');
 const async = require('async');
 
-const cli = [
+const cli = [ 
   { name: 'help', alias: 'h', type: Boolean },
   { name: 'address', type: String },
   { name: 'admin', type: String },
