@@ -10,7 +10,7 @@ const TestRPC = require('ethereumjs-testrpc');
 const sha256 = require('js-sha256').sha256;
 const async = require('async');
 const BigNumber = require('bignumber.js');
-const SmallNumber = require (smallnumber.js');
+const SmallNumber = require ('smallnumber.js');
 const solc = require('solc');
 
 const logger = {
