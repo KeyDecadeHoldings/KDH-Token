@@ -41,7 +41,7 @@ function deploy(web3, sourceFile, contractName, constructorParams, address, call
           assert.notEqual(receipt, null, 'Transaction receipt should not be null');
           assert.notEqual(addr, null, 'Transaction did not create a contract');
           web3.eth.getCode(addr, (errCode, resultCode) => {
-            assert.equal(errCode, undefined);
+            assert.equal(errCode, undefined); 
             assert.notEqual(resultCode, null);
             assert.notEqual(resultCode, '0x0');
             callback(undefined, { contract, addr });
