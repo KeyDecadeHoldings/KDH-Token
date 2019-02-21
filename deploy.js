@@ -9,7 +9,7 @@ const cli = [
   { name: 'help', alias: 'h', type: Boolean },
   { name: 'address', type: String },
   { name: 'admin', type: String },
-  { name: 'feeAccount', type: String },
+  { name: 'feeAccount', type: String },  
   { name: 'accountLevelsAddr', type: String },
   { name: 'sendImmediately', type: Boolean, defaultValue: false },
 ];
